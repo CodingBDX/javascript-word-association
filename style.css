@@ -1,0 +1,78 @@
+.question-box {
+    background-color: blueviolet;
+    border-radius: .5em;
+    width: 20vw;
+    margin: 1.2em;
+}
+
+.question-area {
+    width: 100%;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 3em;
+    width: 100%;
+}
+
+.questions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 5px;
+}
+
+.question-box h1 {
+    background-color: blue;
+    border: .2em solid gray;
+    color: rgb(0, 0, 0);
+}
+
+.question-buttons {
+    position: relative;
+    bottom: -4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.question-button {
+    background-color: gold;
+    border-radius: .5em;
+    padding: .6em;
+    margin: .2em 0;
+    border: none;
+    font-size: 1.1em;
+}
+
+.question-button:disabled {
+    background-color: lightgray;
+}
+
+.answer-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50px;
+    text-align: center;
+}
+
+.wrong {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: red;
+    color: white;
+}
+
+.correct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: seagreen;
+    color: white;
+    text-align: center;
+}
